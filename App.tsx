@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 
-function App() {
+const App = () => {
   return (
     <View>
       <Text>
@@ -9,6 +9,6 @@ function App() {
       </Text>
     </View>
   );
-}
+};
 
 export default App;
